@@ -1,4 +1,8 @@
 <?php
+
+// Inicializar el resultado
+$resultado = "";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener los números del formulario
     $num1 = isset($_POST['num1']) ? floatval($_POST['num1']) : 0;
